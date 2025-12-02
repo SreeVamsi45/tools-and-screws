@@ -59,9 +59,9 @@
       var buildUrl = "Build";
       var loaderUrl = buildUrl + "/webgl build.loader.js";
       var config = {
-        dataUrl: buildUrl + "/webgl build.data.gz",
-        frameworkUrl: buildUrl + "/webgl build.framework.js.gz",
-        codeUrl: buildUrl + "/webgl build.wasm.gz",
+        dataUrl: buildUrl + "/webgl build.data",
+        frameworkUrl: buildUrl + "/webgl build.framework.js",
+        codeUrl: buildUrl + "/webgl build.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "V Sree Vamsi",
         productName: "Tools and Screws",
@@ -98,7 +98,7 @@
         canvas.style.height = "600px";
       }
 
-      canvas.style.background = "url('" + buildUrl + "/webgl build.jpg.gz') center / cover";
+      canvas.style.background = "url('" + buildUrl + "/webgl build.jpg') center / cover";
       loadingBar.style.display = "block";
 
       var script = document.createElement("script");
